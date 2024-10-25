@@ -101,7 +101,7 @@ nav a {
     color: #1e90ff;
 }
 .ket {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
 }
 
 /* Responsif */
@@ -115,6 +115,6 @@ nav a {
     }
     /* biar ga ketutup */
     #about, #exp, #kontak {
-        padding-top: 300px;
+        padding-top: 145px;
     }
 }
