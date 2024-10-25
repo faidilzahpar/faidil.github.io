@@ -113,4 +113,8 @@ nav a {
         margin-top: -15px;
         padding: 0;
     }
+    /* biar ga ketutup */
+    #about, #exp, #kontak {
+        padding-top: 300px;
+    }
 }
