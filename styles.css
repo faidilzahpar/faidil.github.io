@@ -76,9 +76,6 @@ nav a {
     nav {
         flex-direction: column;
     }
-    nav h1 {
-        margin-top: 10px;
-    }
     nav ul {
         margin-top: -15px;
         padding: 0;
