@@ -34,6 +34,9 @@ nav a {
     color: white;
     margin: 0 1rem;
 }
+nav a:hover {
+    text-decoration: underline;
+}
 /* Home */
 #home {
     position: relative;
@@ -107,6 +110,9 @@ nav a {
     text-decoration: none;
     color: black;
 }
+.ket a:hover {
+    text-decoration: underline;
+}
 /* footer */
 footer {
     background-color: #1e90ff;
@@ -118,6 +124,9 @@ footer {
 
 /* Responsif */
 @media (max-width: 768px) {
+    #home {
+        padding-top: 250px;
+    }
     nav {
         flex-direction: column;
     }
