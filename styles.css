@@ -96,7 +96,7 @@ nav a:hover {
 .wrap table {
     border-spacing: 10px;
 }
-.bx {
+.wrap .bx {
     border: 5px solid #1e90ff;
     border-radius: 50%;
     padding: 5px;
@@ -116,10 +116,19 @@ nav a:hover {
 /* footer */
 footer {
     background-color: #1e90ff;
-    margin-top: 50px;
     padding: 10px;
-    color: white;
     text-align: center;
+    margin-top: 50px;
+}
+footer .bx {
+    font-size: 2rem;
+    margin-top: 10px;
+    color: white;
+}
+footer p {
+    margin-top: -10px;
+    margin-bottom: 0;
+    color: white;
 }
 
 /* Responsif */
