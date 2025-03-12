@@ -23,6 +23,8 @@
 
 .sosmed:hover {
   color: #e96a04;
+  transform: translateY(-5px);
+  transition: all 0.3s;
 }
 
 .bg-orange {
