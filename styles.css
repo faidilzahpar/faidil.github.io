@@ -13,12 +13,12 @@
 
 .icon-box:hover {
   transform: translateY(-5px);
-  background: #e96a04; /* Warna hover */
+  background: #e96a04;
 }
 
 .icon-box:hover i {
   transform: scale(1.1);
-  color: white; /* Kontras saat hover */
+  color: white;
 }
 
 .sosmed:hover {
@@ -60,4 +60,10 @@
 
 .nav-link:hover::before {
   transform: scaleX(1);
+}
+
+.contact:hover {
+  color: #fd7e14 !important;
+  transform: scale(1.05);
+  transition: all 0.3s;
 }
