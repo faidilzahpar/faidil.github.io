@@ -31,12 +31,6 @@
   color: white;
 }
 
-.sosmed:hover {
-  color: #e96a04;
-  transform: translateY(-5px);
-  transition: all 0.3s;
-}
-
 .bg-orange {
   background-color: #fd7e14;
 }
@@ -74,8 +68,20 @@
   transform: scaleX(1);
 }
 
+.sosmed {
+  transition: all 0.3s ease;
+}
+
+.sosmed:hover {
+  color: #e96a04;
+  transform: translateY(-5px);
+}
+
+.contact {
+  transition: all 0.3s ease;
+}
+
 .contact:hover {
   color: #fd7e14 !important;
   transform: scale(1.05);
-  transition: all 0.3s;
 }
