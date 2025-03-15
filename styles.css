@@ -1,15 +1,15 @@
 .min-vh-custom {
-  min-height: 100vh; /* Default untuk layar besar */
+  min-height: 100vh; 
 }
 
-@media (max-width: 576px) { /* Untuk sm (≤576px) */
+@media (max-width: 576px) { 
   .min-vh-custom {
     min-height: 50vh;
   }
 }
 
 .icon-box {
-  background: white; /* Oranye transparan */
+  background: white; 
   padding: 20px;
   border-radius: 12px;
   transition: transform 0.3s, background 0.3s;
@@ -17,7 +17,7 @@
 
 .icon-box i {
   font-size: 40px;
-  color: #fd7e14; /* Warna utama */
+  color: #fd7e14;
   transition: transform 0.3s, color 0.3s;
 }
 
