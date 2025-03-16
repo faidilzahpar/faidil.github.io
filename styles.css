@@ -2,19 +2,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.navbar {
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.navbar.scrolled {
-  background-color: rgba(255, 255, 255, 0) !important;
-}
-
-.navbar.scrolled .navbar-brand,
-.navbar.scrolled .nav-link {
-  color: black !important;
-}
-
 .hidden {
   opacity: 0;
   transition: opacity 1s ease-out, transform 1s ease-out;
