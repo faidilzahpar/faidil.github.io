@@ -100,7 +100,7 @@ body {
 
 .sosmed:hover {
   color: #e96a04;
-  transform: translateY(-5px);
+  transform: translateY(-5px) scale(1.1);
 }
 
 .contact {
